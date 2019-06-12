@@ -1,0 +1,16 @@
+{% extends  "_layouts/index.njk" %}
+
+{% block body %}
+
+
+        <div class="disciplina__container">
+            <a class="new" href="/disciplinas/create">Nova disciplina</a>
+            {% for disciplina in disciplinas %}
+                <div class="disciplina">
+                    <a href="/disciplinas/delete/{{ disciplina.id }}"><h1>{{ disciplina.nome }}</h1></a>
+                </div>
+            {% endfor %}
+         </div>
+ 
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends  "_layouts/index.njk" %}
+
+{% block body %}
+
+
+        <div class="disciplina__container">
+            <a class="back" href="/disciplinas">Voltar</a>
+            
+            <form action="/disciplinas" autocomplete="off" method="post">
+                <input type="text" name="nome">
+                <button>Adicionar</button>
+            </form>
+         </div>
+ 
+
+{% endblock %}
