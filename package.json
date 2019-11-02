@@ -16,7 +16,7 @@
     "nunjucks": "^3.2.0",
     "pg": "^7.11.0",
     "require-directory": "^2.1.1",
-    "sequelize": "^5.8.8"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
